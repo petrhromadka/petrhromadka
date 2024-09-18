@@ -1,17 +1,17 @@
-<h1 align="center">Hi 👋, I'm Petr Hromádka</h1>
-<h3 align="center">A passionate frontend developer from Czechia</h3>
+<h1 align="center">Hello, I'm Petr Hromádka 👋</h1>
+<h3 align="center">A dedicated frontend developer from Czechia, driven by innovation and creativity</h3>
 
-- 🌱 I’m currently learning **React, Next.js, Java**
+- 🌱 I’m currently expanding my skills in **React, Next.js, and Java**
 
-- 👨‍💻 All of my projects are available at [https://socionet.cz/](https://socionet.cz/)
+- 👨‍💻 You can explore all of my projects at [https://socionet.cz/](https://socionet.cz/)
 
-- 📫 How to reach me **petr.hromadka@socionet.cz**
+- 📫 Feel free to reach out at **petr.hromadka@socionet.cz**
 
-- ⚡ Fun fact **Something**
+- ⚡️ Fun fact: I have a knack for solving complex puzzles and can spend hours mastering a Rubik's cube!
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/petr-hrom%c3%a1dka-49b4a91a5/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/petr-hrom%c3%a1dka-49b4a91a5/" height="30" width="40" /></a>
+<a href="[https://linkedin.com/in/https://www.linkedin.com/in/petr-hrom%c3%a1dka-49b4a91a5/](https://www.linkedin.com/in/petr-hromádka-49b4a91a5/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/petr-hrom%c3%a1dka-49b4a91a5/" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
