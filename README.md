@@ -1,42 +1,70 @@
-# Petr Hromádka
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Petr Hromádka, SOC analyst in Ostrava, Czechia" src="assets/banner-light.svg" width="100%">
+</picture>
 
-SOC analyst based in Ostrava, Czechia. I moved into security operations from enterprise IT support, where I handled incidents under SLAs and managed identities and access in Active Directory and Microsoft Entra ID. In my own time I build small, offline security tools for CI pipelines, container hosts and AI coding agents.
+<p align="center">
+  <a href="https://petrhromadka.cz/en"><img alt="Website" src="https://img.shields.io/badge/petrhromadka.cz-0e7490?style=for-the-badge&logo=astro&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/petr-hrom%C3%A1dka-49b4a91a5/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPGNpcmNsZSBjeD0iNSIgY3k9IjUiIHI9IjIuMyIvPjxyZWN0IHg9IjMiIHk9IjkiIHdpZHRoPSI0IiBoZWlnaHQ9IjEyIi8%2BPHBhdGggZD0iTTEwIDloMy44djEuOGMuNi0xLjEgMi0yLjEgNC0yLjEgMy42IDAgNC4yIDIuNCA0LjIgNS40VjIxaC00di02YzAtMS40IDAtMy4yLTItMy4ycy0yLjIgMS41LTIuMiAzLjFWMjFIMTB6Ii8%2BPC9zdmc%2B"></a>
+  <a href="https://petrhromadka.cz/en/blog"><img alt="Blog" src="https://img.shields.io/badge/Blog-24292f?style=for-the-badge&logo=rss&logoColor=white"></a>
+  <a href="https://petrhromadka.cz/en/contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-24292f?style=for-the-badge&logo=minutemailer&logoColor=white"></a>
+</p>
 
-## What I do
+I work in a security operations center: I triage alerts, investigate what is real, and escalate with evidence. I came from enterprise IT support, where I handled incidents under SLAs and managed identities in Active Directory and Microsoft Entra ID, so account compromise and sign-in investigations are where I feel at home.
 
-- **Alert triage:** review SIEM and EDR alerts, separate real threats from noise, and escalate with clear evidence.
-- **Detection:** turn recurring suspicious patterns into queries and rules, and tune the noisy ones.
-- **Incident response:** investigate, contain, and write up what happened with a timeline others can follow.
-- **Identity and access:** a background in Active Directory and Entra ID, which helps with account compromise, MFA and sign-in investigations.
+Outside work I build small, offline security tools and run a homelab for AI agent automation.
 
-## Security projects
+## Security tools
 
-| Project | What it does | Status |
-| --- | --- | --- |
-| [gha-warden](https://github.com/petrhromadka/gha-warden) | Static auditor for GitHub Actions workflows: script injection, pwn requests, unpinned actions, over-broad permissions. Runs offline, outputs SARIF for code scanning. | v0.1.2 |
-| [container-audit](https://github.com/petrhromadka/container-audit) | Read-only audit of a Docker host: root and privileged containers, mounted Docker socket, secrets in environment variables, exposed ports. Text, JSON, Markdown or SARIF; on PyPI as `docker-host-audit`. | v0.2.0 |
-| [claude-code-firewall](https://github.com/petrhromadka/claude-code-firewall) | PreToolUse hook for Claude Code that denies or asks before tool calls matching your own policy rules, and keeps a redacted JSONL audit log. | 0.1.0, no release yet |
-| [mcp-warden](https://github.com/petrhromadka/mcp-warden) | Offline scanner for MCP servers and client configs (tool poisoning, rug pulls, tool shadowing, leaked secrets) as a single Rust binary with SARIF output. | In progress |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/petrhromadka/gha-warden">gha-warden</a></h3>
+      <p>Static auditor for GitHub Actions workflows. Finds script injection, pwn requests, unpinned actions and over-broad permissions, offline, with SARIF output for code scanning.</p>
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/petrhromadka/gha-warden?style=flat-square&label=release&color=0e7490">
+      <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white">
+      <img alt="SARIF" src="https://img.shields.io/badge/SARIF-6e7781?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/petrhromadka/container-audit">container-audit</a></h3>
+      <p>Read-only audit of a Docker host: root and privileged containers, a mounted Docker socket, secrets in environment variables, exposed ports. On PyPI as <code>docker-host-audit</code>.</p>
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/petrhromadka/container-audit?style=flat-square&label=release&color=0e7490">
+      <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white">
+      <img alt="Docker" src="https://img.shields.io/badge/Docker-1d63ed?style=flat-square&logo=docker&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/petrhromadka/claude-code-firewall">claude-code-firewall</a></h3>
+      <p>Policy hook for Claude Code that blocks or asks before tool calls matching your rules, and keeps a redacted JSONL audit log you can ship to a SIEM.</p>
+      <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0e7490?style=flat-square">
+      <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white">
+      <img alt="AI agents" src="https://img.shields.io/badge/AI%20agents-6e7781?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/petrhromadka/mcp-warden">mcp-warden</a></h3>
+      <p>Offline scanner for MCP servers and client configs: tool poisoning, rug pulls, tool shadowing and leaked secrets, as a single Rust binary.</p>
+      <img alt="Status: in progress" src="https://img.shields.io/badge/status-in%20progress-9a6700?style=flat-square">
+      <img alt="Rust" src="https://img.shields.io/badge/Rust-b7410e?style=flat-square&logo=rust&logoColor=white">
+      <img alt="SARIF" src="https://img.shields.io/badge/SARIF-6e7781?style=flat-square">
+    </td>
+  </tr>
+</table>
 
-I also run a self-hosted homelab for AI agent automation.
+## What I work with
+
+| | |
+| :-- | :-- |
+| **Security operations** | `SIEM` `EDR` `Alert triage` `Incident response` `OSINT` `TryHackMe` |
+| **Identity** | `Active Directory` `Microsoft Entra ID` `MFA` `Microsoft 365` |
+| **Systems** | `Linux` `Docker` `TCP/IP` `DNS` `DHCP` |
+| **Automation** | `Python` `PowerShell` `SQL` `GitHub Actions` |
+| **Service management** | `ServiceNow` `ITIL` |
 
 ## Certifications
 
-- Microsoft Certified: Security, Compliance, and Identity Fundamentals ([SC-900](https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/1BFA530612DB6FB8?sharingId=D7380B88B57A1857)), March 2025
-- Microsoft Certified: Azure Fundamentals ([AZ-900](https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/20F65684959F55AE?sharingId=D7380B88B57A1857)), February 2025
-- Preparing for SC-200 (Security Operations Analyst)
-
-## Tools and skills
-
-- **Security operations:** SIEM, EDR, alert triage, incident response, threat hunting, OSINT, TryHackMe labs
-- **Identity:** Active Directory, Microsoft Entra ID, MFA, Microsoft 365
-- **Systems and networking:** Linux, Docker, TCP/IP, DNS, DHCP
-- **Code and automation:** Python, PowerShell, SQL, Rust, GitHub Actions, SARIF
-- **IT service management:** ServiceNow, ITIL
-
-## Links
-
-- Website: [petrhromadka.cz](https://petrhromadka.cz/en)
-- Blog: [petrhromadka.cz/en/blog](https://petrhromadka.cz/en/blog)
-- LinkedIn: [Petr Hromádka](https://www.linkedin.com/in/petr-hrom%C3%A1dka-49b4a91a5/)
-- Contact: [petrhromadka.cz/en/contact](https://petrhromadka.cz/en/contact)
+<p>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/1BFA530612DB6FB8?sharingId=D7380B88B57A1857"><img alt="SC-900" src="https://img.shields.io/badge/SC--900-Security%2C%20Compliance%20%26%20Identity-0078d4?style=flat-square"></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/20F65684959F55AE?sharingId=D7380B88B57A1857"><img alt="AZ-900" src="https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078d4?style=flat-square"></a>
+  <img alt="SC-200 in progress" src="https://img.shields.io/badge/SC--200-in%20progress-6e7781?style=flat-square">
+</p>
