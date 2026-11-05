@@ -19,7 +19,7 @@ Outside work I build small, offline security tools and run a homelab for AI agen
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/petrhromadka/agent-canary">agent-canary</a> <sup><img alt="New" src="https://img.shields.io/badge/new-0e7490?style=flat-square"></sup></h3>
+      <h3><a href="https://github.com/petrhromadka/agent-canary">agent-canary</a></h3>
       <p>Canary tokens for AI coding agents. Plants decoy API keys, SSH keys and config files in a workspace, then flags when an agent sends them out over DNS or HTTP or leaks them into its transcript. Built for red-team and prompt-injection testing; standard library only.</p>
       <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-0e7490?style=flat-square">
       <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white">
