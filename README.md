@@ -53,8 +53,8 @@ Outside work I build small, offline security tools and run a homelab for AI agen
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/petrhromadka/mcp-warden">mcp-warden</a></h3>
-      <p>Offline scanner for MCP servers and client configs: tool poisoning, rug pulls, tool shadowing and leaked secrets, as a single Rust binary.</p>
-      <img alt="Status: in progress" src="https://img.shields.io/badge/status-in%20progress-9a6700?style=flat-square">
+      <p>Offline scanner for MCP servers and client configs: tool poisoning, rug pulls, tool shadowing, hidden Unicode and leaked secrets. One Rust binary with no network access by default, SARIF output and a GitHub Action.</p>
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/petrhromadka/mcp-warden?style=flat-square&label=release&color=0e7490">
       <img alt="Rust" src="https://img.shields.io/badge/Rust-b7410e?style=flat-square&logo=rust&logoColor=white">
       <img alt="SARIF" src="https://img.shields.io/badge/SARIF-6e7781?style=flat-square">
     </td>
@@ -68,7 +68,7 @@ Outside work I build small, offline security tools and run a homelab for AI agen
 | **Security operations** | `SIEM` `EDR` `Alert triage` `Incident response` `OSINT` `TryHackMe` |
 | **Identity** | `Active Directory` `Microsoft Entra ID` `MFA` `Microsoft 365` |
 | **Systems** | `Linux` `Docker` `TCP/IP` `DNS` `DHCP` |
-| **Automation** | `Python` `PowerShell` `SQL` `GitHub Actions` |
+| **Automation** | `Python` `PowerShell` `SQL` `Rust` `GitHub Actions` |
 | **Service management** | `ServiceNow` `ITIL` |
 
 ## Certifications
