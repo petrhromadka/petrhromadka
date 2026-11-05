@@ -1,80 +1,42 @@
-<h1 align="center">Hello, I'm Petr Hromádka 👋</h1>
-<h3 align="center">A dedicated frontend developer from Czechia, driven by innovation and creativity</h3>
+# Petr Hromádka
 
-- 🌱 I’m currently expanding my skills in **React, Next.js, and Java**
+SOC analyst based in Ostrava, Czechia. I moved into security operations from enterprise IT support, where I handled incidents under SLAs and managed identities and access in Active Directory and Microsoft Entra ID. In my own time I build small, offline security tools for CI pipelines, container hosts and AI coding agents.
 
-- 👨‍💻 You can explore all of my projects at [https://socionet.cz/](https://socionet.cz/)
+## What I do
 
-- 📫 Feel free to reach out at **petr.hromadka@socionet.cz**
+- **Alert triage:** review SIEM and EDR alerts, separate real threats from noise, and escalate with clear evidence.
+- **Detection:** turn recurring suspicious patterns into queries and rules, and tune the noisy ones.
+- **Incident response:** investigate, contain, and write up what happened with a timeline others can follow.
+- **Identity and access:** a background in Active Directory and Entra ID, which helps with account compromise, MFA and sign-in investigations.
 
-- ⚡️ Fun fact: I have a knack for solving complex puzzles and can spend hours mastering a Rubik's cube!
+## Security projects
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/petr-hromádka-49b4a91a5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/petr-hromádka-49b4a91a5/" height="30" width="40" /></a>
-</p>
+| Project | What it does | Status |
+| --- | --- | --- |
+| [gha-warden](https://github.com/petrhromadka/gha-warden) | Static auditor for GitHub Actions workflows: script injection, pwn requests, unpinned actions, over-broad permissions. Runs offline, outputs SARIF for code scanning. | v0.1.2 |
+| [container-audit](https://github.com/petrhromadka/container-audit) | Read-only audit of a Docker host: root and privileged containers, mounted Docker socket, secrets in environment variables, exposed ports. Text, JSON, Markdown or SARIF; on PyPI as `docker-host-audit`. | v0.2.0 |
+| [claude-code-firewall](https://github.com/petrhromadka/claude-code-firewall) | PreToolUse hook for Claude Code that denies or asks before tool calls matching your own policy rules, and keeps a redacted JSONL audit log. | 0.1.0, no release yet |
+| [mcp-warden](https://github.com/petrhromadka/mcp-warden) | Offline scanner for MCP servers and client configs (tool poisoning, rug pulls, tool shadowing, leaked secrets) as a single Rust binary with SARIF output. | In progress |
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <!-- HTML -->
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-  </a> 
-  
-  <!-- CSS -->
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-  </a> 
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
-  </a> 
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> 
-  </a> 
-  <a href="https://bulma.io/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="bulma" width="40" height="40"/> 
-  </a> 
-  <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> 
-  </a> 
-  
-  <!-- JavaScript & TypeScript -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-  </a> 
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-  </a> 
-  <a href="https://svelte.dev" target="_blank" rel="noreferrer"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> 
-  </a> 
-  
-  <!-- Tools -->
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a> 
-  <a href="https://postman.com" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> 
-  </a> 
-  
-  <!-- Databases -->
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-  </a> 
-  <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> 
-  </a> 
-</p>
+I also run a self-hosted homelab for AI agent automation.
 
+## Certifications
+
+- Microsoft Certified: Security, Compliance, and Identity Fundamentals ([SC-900](https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/1BFA530612DB6FB8?sharingId=D7380B88B57A1857)), March 2025
+- Microsoft Certified: Azure Fundamentals ([AZ-900](https://learn.microsoft.com/api/credentials/share/en-us/PetrHromdka-3880/20F65684959F55AE?sharingId=D7380B88B57A1857)), February 2025
+- Preparing for SC-200 (Security Operations Analyst)
+
+## Tools and skills
+
+- **Security operations:** SIEM, EDR, alert triage, incident response, threat hunting, OSINT, TryHackMe labs
+- **Identity:** Active Directory, Microsoft Entra ID, MFA, Microsoft 365
+- **Systems and networking:** Linux, Docker, TCP/IP, DNS, DHCP
+- **Code and automation:** Python, PowerShell, SQL, Rust, GitHub Actions, SARIF
+- **IT service management:** ServiceNow, ITIL
+
+## Links
+
+- Website: [petrhromadka.cz](https://petrhromadka.cz/en)
+- Blog: [petrhromadka.cz/en/blog](https://petrhromadka.cz/en/blog)
+- LinkedIn: [Petr Hromádka](https://www.linkedin.com/in/petr-hrom%C3%A1dka-49b4a91a5/)
+- Contact: [petrhromadka.cz/en/contact](https://petrhromadka.cz/en/contact)
