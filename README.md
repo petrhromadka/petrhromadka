@@ -12,7 +12,7 @@
 
 I work in a security operations center: I triage alerts, investigate what is real, and escalate with evidence. I came from enterprise IT support, where I handled incidents under SLAs and managed identities in Active Directory and Microsoft Entra ID, so account compromise and sign-in investigations are where I feel at home.
 
-Outside work I build small, offline security tools and run a homelab for AI agent automation.
+Outside work I build small, offline security tools and run a homelab for AI agent automation. I also make websites for small businesses at [socionet.cz](https://socionet.cz/).
 
 ## Security tools
 
